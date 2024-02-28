@@ -1,6 +1,6 @@
 # linReg
 
-This is a console [application](/bin/Release/net8.0) designed to find the best-fit linear equation $y_i = ax_i + b$  
+This is a console [application](../bin/Release/net8.0) designed to find the best-fit linear equation $y_i = ax_i + b$  
 for a [samples](./bin/Release/net8.0/samples.csv) dataset using the least-squares approach.  
 $x_i$ and $y_i$ are independent and dependent values from the dataset, respectively.  
 $a$ - the slope of the line.  
