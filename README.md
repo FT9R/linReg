@@ -9,6 +9,14 @@ $b$ - the y-intercept.
 Expressions to derive $a$ and $b$ used by Statistics.dll: 
 $$a = \bar y - (b \bar x)$$
 $$b = \frac{\sum\limits_{i=1}^n (x_i - \bar x)(y_i - \bar y)} {\sum\limits_{i=1}^n (x_i - \bar x)^2}$$
+Definition of the coefficient of determination:
+$$R^2 = 1 - \frac{SS_{res}} {SS_{tot}}$$
+Residual sum of squares:
+$$SS_{res} = \sum_{i=1}^n (y_i - f_i)^2$$
+Where $f_i$ is fitted value equal to $x_i * a + b$
+Total sum of squares:
+$$SS_{tot} = \sum_{i=1}^n (y_i - \bar y)^2$$
+
 
 ## Dependencies
 [.NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
