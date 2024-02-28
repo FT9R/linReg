@@ -56,11 +56,11 @@ bool GetValuesFromSamplesSet(List<double> independentValues, List<double> depend
 {
     while (true)
     {
-        string? sampleLine = streamReader.ReadLine();
+        var sampleLine = streamReader.ReadLine();
         if (sampleLine is null)
             return true;
 
-        string[] sampleSeparated = sampleLine.Split(',', 3);
+        var sampleSeparated = sampleLine.Split(',', 3);
 
         if (sampleSeparated.Length != 2)
         {
@@ -69,13 +69,13 @@ bool GetValuesFromSamplesSet(List<double> independentValues, List<double> depend
             return false;
         }
 
-        if (!double.TryParse(sampleSeparated[0], out double independent))
+        if (!double.TryParse(sampleSeparated[0], out var independent))
         {
             Console.WriteLine("Warning: the independent value is not a number in the {0}th sample", independentValues.Count + 1);
 
             return false;
         }
-        if (!double.TryParse(sampleSeparated[1], out double dependent))
+        if (!double.TryParse(sampleSeparated[1], out var dependent))
         {
             Console.WriteLine("Warning: the dependent value is not a number in the {0}th sample", dependentValues.Count + 1);
 

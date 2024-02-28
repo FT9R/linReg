@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\r.cheremushkin\\Desktop\\linReg\\linReg.csproj",
+      "projectUniqueName": "E:\\Visual Studio 2022\\source\\repos\\linReg\\linReg.csproj",
       "projectName": "linReg",
-      "projectPath": "C:\\Users\\r.cheremushkin\\Desktop\\linReg\\linReg.csproj",
+      "projectPath": "E:\\Visual Studio 2022\\source\\repos\\linReg\\linReg.csproj",
       "packagesPath": "C:\\Users\\r.cheremushkin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\r.cheremushkin\\Desktop\\linReg\\obj\\",
+      "outputPath": "E:\\Visual Studio 2022\\source\\repos\\linReg\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\r.cheremushkin\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("linReg")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1f369ba9f5bd008d7bcf2d415d195d13cf4bb62")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6059b71a51301be091a2bbd54c6d98a87b314297")]
 [assembly: System.Reflection.AssemblyProductAttribute("linReg")]
 [assembly: System.Reflection.AssemblyTitleAttribute("linReg")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

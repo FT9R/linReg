@@ -17,3 +17,22 @@ C:\Users\r.cheremushkin\Desktop\linReg\obj\Release\net8.0\linReg.pdb
 C:\Users\r.cheremushkin\Desktop\linReg\obj\Release\net8.0\linReg.genruntimeconfig.cache
 C:\Users\r.cheremushkin\Desktop\linReg\obj\Release\net8.0\ref\linReg.dll
 C:\Users\r.cheremushkin\Desktop\linReg\obj\Release\net8.0\linReg.sourcelink.json
+E:\Visual Studio 2022\source\repos\linReg\bin\Release\net8.0\linReg.exe
+E:\Visual Studio 2022\source\repos\linReg\bin\Release\net8.0\linReg.deps.json
+E:\Visual Studio 2022\source\repos\linReg\bin\Release\net8.0\linReg.runtimeconfig.json
+E:\Visual Studio 2022\source\repos\linReg\bin\Release\net8.0\linReg.dll
+E:\Visual Studio 2022\source\repos\linReg\bin\Release\net8.0\linReg.pdb
+E:\Visual Studio 2022\source\repos\linReg\bin\Release\net8.0\Statistics.dll
+E:\Visual Studio 2022\source\repos\linReg\bin\Release\net8.0\Statistics.pdb
+E:\Visual Studio 2022\source\repos\linReg\obj\Release\net8.0\linReg.csproj.AssemblyReference.cache
+E:\Visual Studio 2022\source\repos\linReg\obj\Release\net8.0\linReg.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio 2022\source\repos\linReg\obj\Release\net8.0\linReg.AssemblyInfoInputs.cache
+E:\Visual Studio 2022\source\repos\linReg\obj\Release\net8.0\linReg.AssemblyInfo.cs
+E:\Visual Studio 2022\source\repos\linReg\obj\Release\net8.0\linReg.csproj.CoreCompileInputs.cache
+E:\Visual Studio 2022\source\repos\linReg\obj\Release\net8.0\linReg.sourcelink.json
+E:\Visual Studio 2022\source\repos\linReg\obj\Release\net8.0\linReg.csproj.CopyComplete
+E:\Visual Studio 2022\source\repos\linReg\obj\Release\net8.0\linReg.dll
+E:\Visual Studio 2022\source\repos\linReg\obj\Release\net8.0\refint\linReg.dll
+E:\Visual Studio 2022\source\repos\linReg\obj\Release\net8.0\linReg.pdb
+E:\Visual Studio 2022\source\repos\linReg\obj\Release\net8.0\linReg.genruntimeconfig.cache
+E:\Visual Studio 2022\source\repos\linReg\obj\Release\net8.0\ref\linReg.dll
