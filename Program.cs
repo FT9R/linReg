@@ -1,4 +1,6 @@
-﻿var streamReader = StreamReader.Null;
+﻿using System.Globalization;
+
+var streamReader = StreamReader.Null;
 var samplesPath = Path.Combine(Environment.CurrentDirectory, "samples.csv");
 var consoleKey = ConsoleKey.None;
 
@@ -69,13 +71,13 @@ bool GetValuesFromSamplesSet(List<double> independentValues, List<double> depend
             return false;
         }
 
-        if (!double.TryParse(sampleSeparated[0], out var independent))
+        if (!double.TryParse(sampleSeparated[0], CultureInfo.InvariantCulture, out var independent))
         {
             Console.WriteLine("Warning: the independent value is not a number in the {0}th sample", independentValues.Count + 1);
 
             return false;
         }
-        if (!double.TryParse(sampleSeparated[1], out var dependent))
+        if (!double.TryParse(sampleSeparated[1], CultureInfo.InvariantCulture, out var dependent))
         {
             Console.WriteLine("Warning: the dependent value is not a number in the {0}th sample", dependentValues.Count + 1);
 
