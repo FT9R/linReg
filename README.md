@@ -1,7 +1,7 @@
 # linReg
 
-This is a console [application](https://github.com/FT9R/linReg/tree/main/bin/Release/net8.0) designed to find the best-fit linear equation $y_i = ax_i + b$  
-for a [samples](https://github.com/FT9R/linReg/blob/main/bin/Release/net8.0/samples.csv) dataset using the least-squares approach.  
+This is a console [application](https://github.com/FT9R/linReg/tree/main/bin/Release/net8.0) that's able to find the best-fit linear equation $y_i = ax_i + b$  
+for a two-dimensional [samples](https://github.com/FT9R/linReg/blob/main/bin/Release/net8.0/samples.csv) dataset using the least-squares approach.  
 $x_i$ and $y_i$ are independent and dependent values from the dataset, respectively.  
 $a$ - the slope of the line.  
 $b$ - the y-intercept.  
