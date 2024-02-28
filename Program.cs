@@ -33,8 +33,9 @@ while (true)
     {
         var (slope, intercept) = Statistics.LeastSquares.GetSlopeAndIntercept([.. independentValues], [.. dependentValues]);
         Console.WriteLine("Samples processed:\t{0}", independentValues.Count);
-        Console.WriteLine("Line slope:\t\t{0:N6}", slope);
-        Console.WriteLine("y-intercept:\t\t{0:N6}", intercept);
+        Console.WriteLine("Line slope:\t\t{0:N8}", slope);
+        Console.WriteLine("y-intercept:\t\t{0:N8}", intercept);
+        Console.WriteLine("R-Squared:\t\t{0:N8}", Statistics.LeastSquares.GetCoefficientOfDetermination([.. independentValues], [.. dependentValues], slope, intercept));
     }
     catch (Exception e)
     {

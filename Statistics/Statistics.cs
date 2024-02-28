@@ -50,5 +50,28 @@
 
             return (slope, intercept);
         }
+
+        public static double GetCoefficientOfDetermination(double[] independent, double[] dependent, double slope, double intercept)
+        {
+            ArgumentNullException.ThrowIfNull(independent);
+            ArgumentNullException.ThrowIfNull(dependent);
+            if (independent.Length != dependent.Length)
+                throw new ArgumentException("Arrays of independent and dependent values must have the same length " +
+                    "corresponding to the number of samples");
+            if (independent.Length < 2)
+                throw new ArgumentException("At least 2 samples are required for further calculation"); ;
+
+            double residualSumOfSquares = 0;
+            double totalSumOfSquares = 0;
+            double dependentAvg = dependent.Average();
+
+            for (int i = 0; i < dependent.Length; i++)
+            {
+                residualSumOfSquares += Math.Pow(dependent[i] - (independent[i] * slope + intercept), 2);
+                totalSumOfSquares += Math.Pow(dependent[i] - dependentAvg, 2);
+            }
+
+            return 1 - residualSumOfSquares / totalSumOfSquares;
+        }
     }
 }

@@ -16,3 +16,4 @@ C:\Users\r.cheremushkin\Desktop\linReg\obj\Release\net8.0\refint\linReg.dll
 C:\Users\r.cheremushkin\Desktop\linReg\obj\Release\net8.0\linReg.pdb
 C:\Users\r.cheremushkin\Desktop\linReg\obj\Release\net8.0\linReg.genruntimeconfig.cache
 C:\Users\r.cheremushkin\Desktop\linReg\obj\Release\net8.0\ref\linReg.dll
+C:\Users\r.cheremushkin\Desktop\linReg\obj\Release\net8.0\linReg.sourcelink.json

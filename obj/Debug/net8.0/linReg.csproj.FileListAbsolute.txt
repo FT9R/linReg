@@ -48,3 +48,4 @@ C:\Users\r.cheremushkin\Desktop\linReg\obj\Debug\net8.0\linReg.csproj.AssemblyRe
 C:\Users\r.cheremushkin\Desktop\linReg\obj\Debug\net8.0\linReg.csproj.CopyComplete
 C:\Users\r.cheremushkin\Desktop\linReg\obj\Debug\net8.0\linReg.genruntimeconfig.cache
 C:\Users\r.cheremushkin\Desktop\linReg\obj\Debug\net8.0\ref\linReg.dll
+C:\Users\r.cheremushkin\Desktop\linReg\obj\Debug\net8.0\linReg.sourcelink.json

@@ -20,3 +20,4 @@ C:\Users\r.cheremushkin\Desktop\linReg\Statistics\obj\Release\net8.0\Statistics.
 C:\Users\r.cheremushkin\Desktop\linReg\Statistics\obj\Release\net8.0\refint\Statistics.dll
 C:\Users\r.cheremushkin\Desktop\linReg\Statistics\obj\Release\net8.0\Statistics.pdb
 C:\Users\r.cheremushkin\Desktop\linReg\Statistics\obj\Release\net8.0\ref\Statistics.dll
+C:\Users\r.cheremushkin\Desktop\linReg\Statistics\obj\Release\net8.0\Statistics.sourcelink.json
