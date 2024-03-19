@@ -1,9 +1,11 @@
 ﻿namespace Statistics;
+
 public static class LeastSquares
 {
     private static (double value, int occurrences) DetectMultipleOccurrences(double[] values)
     {
         var set = new HashSet<double>();
+
         foreach (var item in values)
         {
             if (!set.Add(item))
@@ -12,6 +14,7 @@ public static class LeastSquares
 
         return (0, 0);
     }
+
     public static (double slope, double intercept) GetSlopeAndIntercept(double[] independent, double[] dependent)
     {
         ArgumentNullException.ThrowIfNull(independent);

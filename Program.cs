@@ -28,6 +28,7 @@ while (true)
 
         continue;
     }
+
     GetValuesFromSamplesSet(independentValues, dependentValues);
     streamReader.Close();
 
@@ -61,9 +62,7 @@ bool GetValuesFromSamplesSet(List<double> independentValues, List<double> depend
         var sampleLine = streamReader.ReadLine();
         if (sampleLine is null)
             return true;
-
         var sampleSeparated = sampleLine.Split(',', 3);
-
         if (sampleSeparated.Length != 2)
         {
             Console.WriteLine("Warning: invalid input data format");
@@ -83,6 +82,7 @@ bool GetValuesFromSamplesSet(List<double> independentValues, List<double> depend
 
             return false;
         }
+
         independentValues.Add(independent);
         dependentValues.Add(dependent);
     }
@@ -93,6 +93,7 @@ void ExceptionHandler(Exception e)
     Console.WriteLine("An exception has occurred:\n" + e.StackTrace);
     Console.WriteLine($"> {e.Message}");
     Console.WriteLine("Press Enter to continue or Esc to exit\n");
+    
     do
         consoleKey = Console.ReadKey(true).Key;
     while ((consoleKey != ConsoleKey.Enter) && (consoleKey != ConsoleKey.Escape));
