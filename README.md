@@ -8,14 +8,18 @@ $b$ - the y-intercept.
 
 ## Expressions used by Statistics.dll
 Slope coefficient equation:  
-$$a = \bar y - (b \bar x)$$
+$$a = \frac{\sum\limits_{i=1}^n (x_i - \bar x)(y_i - \bar y)} {\sum\limits_{i=1}^n (x_i - \bar x)^2}$$
+
 y-intercept coefficient equation:  
-$$b = \frac{\sum\limits_{i=1}^n (x_i - \bar x)(y_i - \bar y)} {\sum\limits_{i=1}^n (x_i - \bar x)^2}$$
+$$b = \bar y - (a \bar x)$$
+
 Definition of the coefficient of determination:
 $$R^2 = 1 - \frac{SS_{res}} {SS_{tot}}$$
+
 Residual sum of squares:
 $$SS_{res} = \sum_{i=1}^n (y_i - f_i)^2$$
-Where $f_i$ is fitted value equal to $x_i * a + b$.   
+Where $f_i$ is fitted value equal to $x_i * a + b$.
+
 Total sum of squares:
 $$SS_{tot} = \sum_{i=1}^n (y_i - \bar y)^2$$
 
